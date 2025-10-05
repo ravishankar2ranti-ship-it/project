@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body,html{
+   height: 100%;
+   width: 100%; 
+    background-image: url("music.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#main{
+    height: 5%;
+    width: 100%;
+    display: flex;
+    font-size: 3em;
+    justify-content: space-evenly;
+    color: chartreuse;
+}
+#main:hover{
+    font-weight: 700;
+    color: dodgerblue;
+}
+.ravi{
+    display: flex;
+}
+#a{
+    font-size: 2em;
+}
+#comment{
+    text-align: center;
+    font-size:2em ;
+    margin-top: 30%;
+    width: 25%;
+    height:25%;
+    background-image: url("back.jpg");
+    border-radius: 50%;
+    padding-top: 5%;
+    background-size: contain;
+    color: aquamarine;
+}
+#comment:hover{
+    font-size: 1.4em;
+    background-image:url("hoov.jpg") ;
+}

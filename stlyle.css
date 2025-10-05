@@ -1,0 +1,59 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url("ravi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#head{
+    height: 5%;
+    width: 100%;
+background-color:rgb(156, 50, 205);
+font-size: 2em;
+display: flex;
+justify-content: space-evenly;
+text-decoration: ;
+list-style: none;
+}
+#head:active{
+    color: red;
+}
+#head:visited{
+    color: aqua;
+}
+#head:hover{
+    font-weight:800;
+    color: blue;
+}
+
+#d{
+    height: 15%;
+    width: 15%;
+    background-color: rgb(255, 105, 208);
+    border-radius: 50%;
+    margin-top:37%;
+    text-align: center;
+    font-size: 1.3em;
+    padding-top: 2%;
+    
+}
+#d:hover{
+ font-weight: 600;
+ background-color: grey;
+}
+#you{
+height: 40%;
+white-space: 40%;
+margin-top: 30%;
+}
+
